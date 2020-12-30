@@ -12,17 +12,8 @@ code can hold up to 3KB of data)
 > if you want to store data in a 2D barcode, use QR codes. But if you need to 
 use markers that can be more easily detected in your computer vision pipeline, 
 use AprilTags
-- Useful for (but not limited to):
-	- Camera calibration
-	- Object size estimation
-	- Measuring the distance between the camera and an object
-	- 3D positioning
-	- Object orientation
-	- Robotics (i.e., autonomously navigating to a specific marker)
-	- etc.
 	
-AprilTags are a special type of fiducial marker. These markers have the 
-following properties:
+## AprilTag Properties
 
 1. They are a square with binary values.
 1. The background is “black.”
@@ -32,7 +23,7 @@ detect.
 1. They can be generated in nearly any size.
 1. Once generated, they can be printed out and added to your application.
 
-Once detected in a computer vision pipeline, AprilTags can be used for:
+## AprilTags Usability
 
 1. Camera calibration
 1. 3D applications
@@ -45,9 +36,14 @@ Once detected in a computer vision pipeline, AprilTags can be used for:
 1. ... and more!
 
 ## Examples use of AprilTag
-1. A great example of using fiducials could be used in a large fulfillment warehouse (i.e., Amazon) where you’re using autonomous forklifts.
-1. You could place AprilTags on the floor to define “lanes” for the forklifts to drive on. Specific markers could be placed on large shelves such that the forklift knows which crate to pull down.
-1. And markers could even be used for “emergency shutdowns” where if that “911” marker is detected, the forklift automatically stops, halts operations, and shuts down.
+1. A great example of using fiducials could be used in a large fulfillment 
+warehouse (i.e., Amazon) where you’re using autonomous forklifts.
+1. You could place AprilTags on the floor to define “lanes” for the forklifts 
+to drive on. Specific markers could be placed on large shelves such that the 
+forklift knows which crate to pull down.
+1. And markers could even be used for “emergency shutdowns” where if that “911” 
+marker is detected, the forklift automatically stops, halts operations, and 
+shuts down.
 
 ## Installing the “apriltag” Python package
 ```
