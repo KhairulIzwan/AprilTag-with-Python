@@ -2,10 +2,10 @@
 
 ## What is AprilTag
 - Type of **fiducial marker**
-- Consisting of a black square with a white foreground that has been generated 
-in a particular pattern
-- **Similar to a QR code — a 2D binary** However, an AprilTag only holds 4-12 
-bits of data, multiple orders of magnitude less than a QR code (a typical QR 
+- Consisting of a **black square with a white foreground** that has been 
+generated **in a particular pattern**
+- **Similar to a QR code — a 2D binary** However, an AprilTag **only holds 4-12** 
+**bits of data, multiple orders of magnitude less than a QR code** (a typical QR 
 code can hold up to 3KB of data)
 - **so small, they can be more easily detected, more robustly identified, and** 
 **less difficult to detect at longer ranges**
