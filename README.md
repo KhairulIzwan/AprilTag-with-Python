@@ -9,7 +9,7 @@ generated **in a particular pattern**
 code can hold up to 3KB of data)
 - **so small, they can be more easily detected, more robustly identified, and** 
 **less difficult to detect at longer ranges**
-- if you want to store data in a 2D barcode, use QR codes. But if you need to 
+> if you want to store data in a 2D barcode, use QR codes. But if you need to 
 use markers that can be more easily detected in your computer vision pipeline, 
 use AprilTags
 - Useful for (but not limited to):
