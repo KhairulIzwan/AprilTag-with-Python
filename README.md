@@ -44,14 +44,12 @@ Once detected in a computer vision pipeline, AprilTags can be used for:
 1. Object orientation
 1. ... and more!
 
-Examples:
-A great example of using fiducials could be used in a large fulfillment warehouse (i.e., Amazon) where you’re using autonomous forklifts.
+## Examples use of AprilTag
+1. A great example of using fiducials could be used in a large fulfillment warehouse (i.e., Amazon) where you’re using autonomous forklifts.
+1. You could place AprilTags on the floor to define “lanes” for the forklifts to drive on. Specific markers could be placed on large shelves such that the forklift knows which crate to pull down.
+1. And markers could even be used for “emergency shutdowns” where if that “911” marker is detected, the forklift automatically stops, halts operations, and shuts down.
 
-You could place AprilTags on the floor to define “lanes” for the forklifts to drive on. Specific markers could be placed on large shelves such that the forklift knows which crate to pull down.
-
-And markers could even be used for “emergency shutdowns” where if that “911” marker is detected, the forklift automatically stops, halts operations, and shuts down.
-
-Installing the “apriltag” Python package on your system
-$ wget https://bootstrap.pypa.io/get-pip.py
-$ sudo python get-pip.py
-$ python -m pip install apriltag
+## Installing the “apriltag” Python package
+> $ wget https://bootstrap.pypa.io/get-pip.py
+> $ sudo python get-pip.py
+> $ python -m pip install apriltag
