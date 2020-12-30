@@ -50,6 +50,8 @@ Once detected in a computer vision pipeline, AprilTags can be used for:
 1. And markers could even be used for “emergency shutdowns” where if that “911” marker is detected, the forklift automatically stops, halts operations, and shuts down.
 
 ## Installing the “apriltag” Python package
-> $ wget https://bootstrap.pypa.io/get-pip.py
-> $ sudo python get-pip.py
-> $ python -m pip install apriltag
+```
+$ wget https://bootstrap.pypa.io/get-pip.py
+$ sudo python get-pip.py
+$ python -m pip install apriltag
+```
