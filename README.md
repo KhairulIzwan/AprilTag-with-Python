@@ -51,3 +51,6 @@ $ wget https://bootstrap.pypa.io/get-pip.py
 $ sudo python get-pip.py
 $ python -m pip install apriltag
 ```
+
+## References
+1. https://www.pyimagesearch.com/2020/11/02/apriltag-with-python/
